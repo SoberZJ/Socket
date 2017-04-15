@@ -10,7 +10,7 @@ SocketServer server = new SocketServer(5556, new EchoHandler());
 
 Create a client connecting to localhost's port 5556.
 ``` java
-SocketClient client = new SocketClient(InetAddress.getLocalHost(), 556);
+SocketClient client = new SocketClient(InetAddress.getLocalHost(), 4556);
 ```
 
 Send a message from the client.
